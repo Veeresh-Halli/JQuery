@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="JQuery.js"></script>
+    <title>JQuery Project</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row ml-5 mr-2 pt-5">
+        <h1 id="note">Browse In Desktop To Get Full Feature Of This JQuery</h1>
+        </div>
+        <div class="row mt-5 mb-5">
+            <div class="col-lg-12 col-md-12 col-12">
+                <div class="card card-body">
+                    <h1 id="h1">Do Something To Know What You Did.....</h1>
+                </div>
+            </div>
+        </div>
+
+        <section>
+            <div class="card card-body mb-4">
+                <h1 class="text-center">TEXT SECTION</h1>
+                <hr clas="w-50 mx-auto">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="card card-body">
+
+                            <h3 class="text-center">HIDE</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div class="row  ml-1 mr-1 mx-auto">
+                            <button id="hide1" class="btn btn-outline-info btn-sm mr-1">Hide in 1s</button>
+                            <button id="hide2" class="btn btn-outline-info btn-sm mr-1">Hide in 2s</button>
+                            <button id="hide3" class="btn btn-outline-info btn-sm mr-1">Hide in 3s</button>
+                            <button id="hide4" class="btn btn-outline-info btn-sm mr-1">Hide in 4s</button>
+                            <button id="hide5" class="btn btn-outline-info btn-sm mr-1">Hide in 5s</button>
+                            </div>
+
+                            <div class="row ml-1 mr-1  mt-2 mx-auto">
+                            <button id="fadehide1" class="btn btn-outline-info btn-sm mr-1">Fade in 1s</button>
+                            <button id="fadehide2" class="btn btn-outline-info btn-sm mr-1">Fade in 2s</button>
+                            <button id="fadehide3" class="btn btn-outline-info btn-sm mr-1">Fade in 3s</button>
+                            <button id="fadehide4" class="btn btn-outline-info btn-sm mr-1">Fade in 4s</button>
+                            <button id="fadehide5" class="btn btn-outline-info btn-sm mr-1">Fade in 5s</button>
+                            </div> 
+
+                            <div class="row ml-1 mr-1  mt-2 mx-auto">
+                            <button id="slidehide1" class="btn btn-outline-info btn-sm mr-1">Slide in 1s</button>
+                            <button id="slidehide2" class="btn btn-outline-info btn-sm mr-1">Slide in 2s</button>
+                            <button id="slidehide3" class="btn btn-outline-info btn-sm mr-1">Slide in 3s</button>
+                            <button id="slidehide4" class="btn btn-outline-info btn-sm mr-1">Slide in 4s</button>
+                            <button id="slidehide5" class="btn btn-outline-info btn-sm mr-1">Slide in 5s</button>
+                            </div>
+                           
+                            <h3 class="text-center mt-3">SHOW</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="show1" class="btn btn-outline-info btn-sm mr-1">Show in 1s</button>
+                            <button id="show2" class="btn btn-outline-info btn-sm mr-1">Show in 2s</button>
+                            <button id="show3" class="btn btn-outline-info btn-sm mr-1">Show in 3s</button>
+                            <button id="show4" class="btn btn-outline-info btn-sm mr-1">Show in 4s</button>
+                            <button id="show5" class="btn btn-outline-info btn-sm mr-1">Show in 5s</button>
+                            </div>
+
+                            <div class="row ml-1 mr-1  mt-2 mx-auto">
+                            <button id="fadeshow1" class="btn btn-outline-info btn-sm mr-1">Fade in 1s</button>
+                            <button id="fadeshow2" class="btn btn-outline-info btn-sm mr-1">Fade in 2s</button>
+                            <button id="fadeshow3" class="btn btn-outline-info btn-sm mr-1">Fade in 3s</button>
+                            <button id="fadeshow4" class="btn btn-outline-info btn-sm mr-1">Fade in 4s</button>
+                            <button id="fadeshow5" class="btn btn-outline-info btn-sm mr-1">Fade in 5s</button>
+                            </div>
+
+                            <div class="row ml-1 mr-1  mt-2 mx-auto">
+                            <button id="slideshow1" class="btn btn-outline-info btn-sm mr-1">Slide in 1s</button>
+                            <button id="slideshow2" class="btn btn-outline-info btn-sm mr-1">Slide in 2s</button>
+                            <button id="slideshow3" class="btn btn-outline-info btn-sm mr-1">Slide in 3s</button>
+                            <button id="slideshow4" class="btn btn-outline-info btn-sm mr-1">Slide in 4s</button>
+                            <button id="slideshow5" class="btn btn-outline-info btn-sm mr-1">Slide in 5s</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">ADD COLOR TO TEXT</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div clas="row">
+                            <button id="colo1" class="btn btn-outline-info btn-sm">Red</button>
+                            <button id="colo2" class="btn btn-outline-info btn-sm">Green</button>
+                            <button id="colo3" class="btn btn-outline-info btn-sm">Blue</button>
+                            <button id="colo4" class="btn btn-outline-info btn-sm">Black</button>
+                            <button id="colo5" class="btn btn-outline-info btn-sm">Purple</button>
+                            <button id="colo6" class="btn btn-outline-info btn-sm">Pink</button>
+                            <button id="colo7" class="btn btn-outline-info btn-sm">Orange</button>
+                            <button id="colo8" class="btn btn-outline-info btn-sm">White</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">ADD COLOR TO BACKGROUND</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div clas="row">
+                            <button id="back1" class="btn btn-outline-info btn-sm">Red</button>
+                            <button id="back2" class="btn btn-outline-info btn-sm">Green</button>
+                            <button id="back3" class="btn btn-outline-info btn-sm">Blue</button>
+                            <button id="back4" class="btn btn-outline-info btn-sm">Black</button>
+                            <button id="back5" class="btn btn-outline-info btn-sm">Purple</button>
+                            <button id="back6" class="btn btn-outline-info btn-sm">Pink</button>
+                            <button id="back7" class="btn btn-outline-info btn-sm">Orange</button>
+                            <button id="back8" class="btn btn-outline-info btn-sm">White</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">TEXT OPACITY</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="op1" class="btn btn-outline-info btn-sm mr-1">0</button>
+                            <button id="op2" class="btn btn-outline-info btn-sm mr-1">0.1</button>
+                            <button id="op3" class="btn btn-outline-info btn-sm mr-1">0.2</button>
+                            <button id="op4" class="btn btn-outline-info btn-sm mr-1">0.3</button>
+                            <button id="op5" class="btn btn-outline-info btn-sm mr-1">0.4</button>
+                            <button id="op6" class="btn btn-outline-info btn-sm mr-1">0.5</button>
+                            <button id="op7" class="btn btn-outline-info btn-sm mr-1">1</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">TEXT OPACITY IN SECs</h3>
+                            <hr class="w-25 mx-auto mt-1">
+
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="0opsec1" class="btn btn-outline-info btn-sm mr-1">0 in 1s</button>
+                            <button id="0opsec2" class="btn btn-outline-info btn-sm mr-1">0 in 2s</button>
+                            <button id="0opsec3" class="btn btn-outline-info btn-sm mr-1">0 in 3s</button>
+                            <button id="0opsec4" class="btn btn-outline-info btn-sm mr-1">0 in 4s</button>
+                            <button id="0opsec5" class="btn btn-outline-info btn-sm mr-1">0 in 5s</button>
+                            </div>
+
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="01op1" class="btn btn-outline-info btn-sm mr-1">0.1 in 1s</button>
+                            <button id="01op2" class="btn btn-outline-info btn-sm mr-1">0.1 in 2s</button>
+                            <button id="01op3" class="btn btn-outline-info btn-sm mr-1">0.1 in 3s</button>
+                            <button id="01op4" class="btn btn-outline-info btn-sm mr-1">0.1 in 4s</button>
+                            <button id="01op5" class="btn btn-outline-info btn-sm mr-1">0.1 in 5s</button>
+                            </div>
+                            
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="02op1" class="btn btn-outline-info btn-sm mr-1">0.2 in 1s</button>
+                            <button id="02op2" class="btn btn-outline-info btn-sm mr-1">0.2 in 2s</button>
+                            <button id="02op3" class="btn btn-outline-info btn-sm mr-1 ">0.2 in 3s</button>
+                            <button id="02op4" class="btn btn-outline-info btn-sm mr-1">0.2 in 4s</button>
+                            <button id="02op5" class="btn btn-outline-info btn-sm mr-1">0.2 in 5s</button>
+                            </div>
+
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="03op1" class="btn btn-outline-info btn-sm mr-1">0.3 in 1s</button>
+                            <button id="03op2" class="btn btn-outline-info btn-sm mr-1">0.3 in 2s</button>
+                            <button id="03op3" class="btn btn-outline-info btn-sm mr-1">0.3 in 3s</button>
+                            <button id="03op4" class="btn btn-outline-info btn-sm mr-1">0.3 in 4s</button>
+                            <button id="03op5" class="btn btn-outline-info btn-sm mr-1">0.3 in 5s</button>
+                            </div>
+
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="04op1" class="btn btn-outline-info btn-sm mr-1">0.4 in 1s</button>
+                            <button id="04op2" class="btn btn-outline-info btn-sm mr-1">0.4 in 2s</button>
+                            <button id="04op3" class="btn btn-outline-info btn-sm mr-1">0.4 in 3s</button>
+                            <button id="04op4" class="btn btn-outline-info btn-sm mr-1">0.4 in 4s</button>
+                            <button id="04op5" class="btn btn-outline-info btn-sm mr-1">0.4 in 5s</button>
+                            </div>
+
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="05op1" class="btn btn-outline-info btn-sm mr-1 ">0.5 in 1s</button>
+                            <button id="05op2" class="btn btn-outline-info btn-sm mr-1">0.5 in 2s</button>
+                            <button id="05op3" class="btn btn-outline-info btn-sm mr-1">0.5 in 3s</button>
+                            <button id="05op4" class="btn btn-outline-info btn-sm mr-1">0.5 in 4s</button>
+                            <button id="05op5" class="btn btn-outline-info btn-sm mr-1">0.5 in 5s</button>
+                            </div>
+                            
+                            <div class="row mt-2 ml-1 mr-1 mx-auto">
+                            <button id="1op1" class="btn btn-outline-info btn-sm mr-1 ">1 in 1s</button>
+                            <button id="1op2" class="btn btn-outline-info btn-sm mr-1">1 in 2s</button>
+                            <button id="1op3" class="btn btn-outline-info btn-sm mr-1">1 in 3s</button>
+                            <button id="1op4" class="btn btn-outline-info btn-sm mr-1">1 in 4s</button>
+                            <button id="1op5" class="btn btn-outline-info btn-sm mr-1">1 in 5s</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">ADJUST TEXT WIDTH</h3>
+                            <hr class="w-25 mx-auto mt-1">
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="w100" class="btn btn-outline-info btn-sm mr-1">100px</button>
+                            <button id="w200" class="btn btn-outline-info btn-sm mr-1">200px</button>
+                            <button id="w300" class="btn btn-outline-info btn-sm mr-1">300px</button>
+                            <button id="w400" class="btn btn-outline-info btn-sm mr-1">400px</button>
+                            <button id="w500" class="btn btn-outline-info btn-sm mr-1">500px</button>
+                            </div>
+                            
+                            <h3 class="text-center mt-3">ADJUST TEXT HEIGHT</h3>
+                            <hr class="w-25 mx-auto mt-1">
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="h100" class="btn btn-outline-info btn-sm mr-1">100px</button>
+                            <button id="h200" class="btn btn-outline-info btn-sm mr-1">200px</button>
+                            <button id="h300" class="btn btn-outline-info btn-sm mr-1">300px</button>
+                            <button id="h400" class="btn btn-outline-info btn-sm mr-1">400px</button>
+                            <button id="h500" class="btn btn-outline-info btn-sm mr-1">500px</button>
+                            </div>
+
+                            <h3 class="text-center mt-3">CHANGE TEXT</h3>
+                            <hr class="w-25 mx-auto mt-1">
+                            <div class="row ml-1 mr-1 mx-auto">
+                            <button id="ct0" class="btn btn-outline-info btn-sm mr-1">Default</button>
+                            <button id="ct1" class="btn btn-outline-info btn-sm mr-1">Hi</button>
+                            <button id="ct2" class="btn btn-outline-info btn-sm mr-1">Hello</button>
+                            <button id="ct3" class="btn btn-outline-info btn-sm mr-1">Good Morning</button>
+                            <button id="ct4" class="btn btn-outline-info btn-sm mr-1">Good Evening</button>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="card card-body">
+                           <h1 id="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus facere nihil ratione voluptatem molestias, unde id iste sunt esse illo facilis officia, totam, atque iure quod fugit reiciendis voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus facere nihil ratione voluptatem molestias, unde id iste sunt esse illo facilis officia, totam, atque iure quod fugit reiciendis voluptate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi minus facere nihil ratione voluptatem molestias, unde id iste sunt esse illo facilis officia, totam, atque iure quod fugit reiciendis voluptate.</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="card card-body mt-4 mb-4">
+                <h1 class="text-center">IMAGE SECTION</h1>
+                <hr clas="w-50 mx-auto">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 col-12">
+                    <div class="card card-body">
+
+                        <h3 class="text-center mt-3">BACKGROUND COLOR</h3>
+                        <hr class="w-25 mx-auto mt-1">
+                        <div class="row mx-auto">
+                        <button id="imgbc1" class="btn btn-outline-info btn-sm mr-1">Red</button>
+                        <button id="imgbc2" class="btn btn-outline-info btn-sm mr-1">Green</button>
+                        <button id="imgbc3" class="btn btn-outline-info btn-sm mr-1">Blue</button>
+                        <button id="imgbc4" class="btn btn-outline-info btn-sm mr-1">Black</button>
+                        <button id="imgbc5" class="btn btn-outline-info btn-sm mr-1">Purple</button>
+                        <button id="imgbc6" class="btn btn-outline-info btn-sm mr-1">Pink</button>
+                        <button id="imgbc7" class="btn btn-outline-info btn-sm mr-1">Orange</button>
+                        <button id="imgbc8" class="btn btn-outline-info btn-sm mr-1">White</button>
+                        </div>
+
+                        <h3 class="text-center mt-3">IMAGE WIDTH</h3>
+                        <hr class="w-25 mx-auto mt-1">
+                        <div class="row mx-auto">
+                        <button id="imgw1" class="btn btn-outline-info btn-sm mr-1">100px</button>
+                        <button id="imgw2" class="btn btn-outline-info btn-sm mr-1">200px</button>
+                        <button id="imgw3" class="btn btn-outline-info btn-sm mr-1">300px</button>
+                        <button id="imgw4" class="btn btn-outline-info btn-sm mr-1">400px</button>
+                        <button id="imgw5" class="btn btn-outline-info btn-sm mr-1">500px</button>
+                        </div>
+
+                        <h3 class="text-center mt-3">IMAGE HEIGHT</h3>
+                        <hr class="w-25 mx-auto mt-1">
+                        <div class="row mx-auto">
+                        <button id="imgh1" class="btn btn-outline-info btn-sm mr-1">100px</button>
+                        <button id="imgh2" class="btn btn-outline-info btn-sm mr-1">200px</button>
+                        <button id="imgh3" class="btn btn-outline-info btn-sm mr-1">300px</button>
+                        <button id="imgh4" class="btn btn-outline-info btn-sm mr-1">400px</button>
+                        <button id="imgh5" class="btn btn-outline-info btn-sm mr-1">500px</button>
+                        </div>
+
+                        <h3 class="text-center mt-3">IMAGE OPACITY</h3>
+                        <hr class="w-25 mx-auto mt-1">
+                        <div class="row mx-auto">
+                        <button id="imgop0" class="btn btn-outline-info btn-sm mr-1">0</button>
+                        <button id="imgop1" class="btn btn-outline-info btn-sm mr-1">0.1</button>
+                        <button id="imgop2" class="btn btn-outline-info btn-sm mr-1">0.2</button>
+                        <button id="imgop3" class="btn btn-outline-info btn-sm mr-1">0.3</button>
+                        <button id="imgop4" class="btn btn-outline-info btn-sm mr-1">0.4</button>
+                        <button id="imgop5" class="btn btn-outline-info btn-sm mr-1">0.5</button>
+                        <button id="imgop6" class="btn btn-outline-info btn-sm mr-1">1</button>
+                        </div>
+
+                    </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="card crad-body">
+                        <img id='pic' src='pic.png'>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
